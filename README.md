@@ -11,7 +11,8 @@ Before going to Docker Basic, let me briefly overview VM vs. container.
     1. Applications are deployed directly on container engines (eg Docker or Podman) by using OS resources. 
     2. It needs to run only the application's source code, lib, and env, so the image size is lightweight and easy to pack, start, and restart. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/12809b32-609c-44a1-86b6-7195fe055f8d/71dbea51-d5d7-45e6-9578-14c0c57beceb/Untitled.png)
+![image](https://github.com/Thidaayewin/docker-basic/assets/17524347/8f08b075-e8f6-40af-b914-9fe8c96b07ce)
+
 
 Source photo from  NetSolutions
 
@@ -29,7 +30,8 @@ there are three-part
 
 They connect via API. The brain of a container is the image built from the Docker file.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/12809b32-609c-44a1-86b6-7195fe055f8d/b6c409c0-dd3d-4675-bc37-33f043672d41/Untitled.png)
+
+![image](https://github.com/Thidaayewin/docker-basic/assets/17524347/e57e5041-41e8-41af-bd95-10c54c095df8)
 
 Source photo from DevKTOps
 
@@ -77,8 +79,9 @@ EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/12809b32-609c-44a1-86b6-7195fe055f8d/074b1188-b5b7-4595-8414-e52f57fcb049/Untitled.png)
 
+![image](https://github.com/Thidaayewin/docker-basic/assets/17524347/10f0eb15-27bd-45ed-984f-9b90d63613a1)
+Source photo from DevKTOps
 ...
 
 Step 2: Preparing nginx conf for static web site hosting 
